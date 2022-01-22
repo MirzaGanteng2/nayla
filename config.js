@@ -3,7 +3,7 @@ global.DeveloperMode = 'false' //true atau false, true berati iya false berati t
 global.linkGC = [] // link gc lu
 global.channelYT = [] // link yt lu klo g ad g ush di isi
 global.owner = ['6285211233560'] // masuk in no lu sebagai owner
-global.mods = ['6285211233560'] // masuk in no moderator ny
+global.mods = ['6282152625296'] // masuk in no moderator ny
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // ini buat premium
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -32,13 +32,14 @@ global.APIKeys = { // Apikey lu di sini
 }
 
 // Sticker Watermark
-global.packname = 'NayLaBotz'
-global.author = 'Zevano'
+global.packname = '© MARJAN'
+global.author = 'Marjan'
 
 global.multiplier = 36 // ini butuh berapa xp buat levelup 
 
-global.botwm = ['© nayla'] // watermark bot
-global.oname = ['Zevano'] // nama owner nya
+global.botwm = ['© Marjan'] // watermark bot
+global.oname = ['MIRZA GAMTENK'] // nama owner nya
+global.auth  = ['DIKA BEBAN']
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
